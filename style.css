@@ -828,7 +828,7 @@ li{
         height: 80vh;
         position: relative;
         top:600px;
-        transform: translateY(-60%);
+        transform: translateY(-50%);
         left:7%;
     }
     .logo{
