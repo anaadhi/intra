@@ -126,11 +126,8 @@ function validateEmail(email) {
 
 signup.addEventListener('click', e=> {
   
-    const log = auth.createUserWithEmailAndPassword(document.getElementById('email').value, "xxxxxx"); //login
-    log.catch(e => console.log(e.message)); //catch errors
-
     if(validateEmail(email.value)){
-        document.getElementById("error").innerHTML = "Great we have recieved your mail we will get back to you soon"
+        document.getElementById("error").innerHTML = "Registration is closed due to covid"
     }else{
         document.getElementById("error").innerHTML = "Email is badly formatted"
         return
